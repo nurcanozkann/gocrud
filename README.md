@@ -78,7 +78,7 @@ curl --location --request GET 'http://localhost:8080/users/1'
 - POST http://localhost:8080/users
 - body:  { "name": "NurcanNew", "email": "NurcanNew@mail.com", "password": "NurcanNew" }
 ```sh
-curl --location --request PATCH 'http://localhost:8080/users/1' \
+curl --location --request PATCH 'http://localhost:8080/users' \
 --header 'Content-Type: application/json' \
 --data-raw '{"name":"NurcanNew", "email":"NurcanNew@mail.com", "password":"NurcanNew"}'
 ```
