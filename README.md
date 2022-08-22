@@ -7,7 +7,7 @@
 - gin-gonic for routing
 - Postgre sql
 - gorm for PostgreSQL database access
-- swagger for api documentation
+- testify for unit test
 - go modules for package management
 - dockerized environment
 
